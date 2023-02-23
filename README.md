@@ -12,10 +12,10 @@ run.bat 在Windows上运行时，把go的环境变量设置回来
 
 添加一个计划任务，每小时执行一下（自行选择）,建议写一个bat文件
 
-cd PATH_TO_KEEPLOGIN && ./keepLogin.exe
+PATH_TO_KEEPLOGIN/keepLogin.exe
 
 ### Linux ： 
 
 crontab 
 
-0 * * * * cd PATH_TO_KEEPLOGIN && ./keepLogin
+0 * * * * PATH_TO_KEEPLOGIN/keepLogin
