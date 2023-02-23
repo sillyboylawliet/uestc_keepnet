@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5d4957-a34b-4245-a2dd-654e2720127c" name="Changes" comment="2" />
+    <list default="true" id="7a5d4957-a34b-4245-a2dd-654e2720127c" name="Changes" comment="2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build.bat" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +44,16 @@
     "settings.editor.selected.configurable": "go.vgo"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Batch.build">
+    <configuration name="build" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="keepLogin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Administrator\GolandProjects\keepLogin" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="build.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build keepLogin" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="keepLogin" />
       <working_directory value="$PROJECT_DIR$" />
@@ -53,6 +65,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Batch.build" />
         <item itemvalue="Go Build.go build keepLogin" />
       </list>
     </recent_temporary>
